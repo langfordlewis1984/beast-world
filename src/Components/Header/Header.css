@@ -1,0 +1,12 @@
+h1 {
+  color: beige;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 2rem 0;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  font-size: 50px;
+
+  background-color: black;
+}

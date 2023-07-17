@@ -1,0 +1,27 @@
+h2 {
+  text-align: center;
+  padding: 2rem 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  background-color: beige;
+}
+
+p {
+  padding: 2rem;
+  text-align: center;
+  background-color: black;
+  color: beige;
+}
+
+.beast-div {
+  background-image: linear-gradient(beige, white);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 300px;
+  margin: 2rem;
+  border: solid grey 5px;
+}
