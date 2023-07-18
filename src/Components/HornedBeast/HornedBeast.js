@@ -14,7 +14,7 @@ export default function HornedBeast({ title, image_url, description, horns }) {
       <span className="horns">Horns - {horns}</span>
       <img className="img" src={image_url} alt={title} />
       <p className="faves" onClick={handleFaves}>
-        ❤️ {faves}
+        <span className="heart">❤️</span> {faves}
       </p>
       <p>{description}</p>
     </div>

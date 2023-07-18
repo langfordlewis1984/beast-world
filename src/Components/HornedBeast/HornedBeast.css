@@ -42,3 +42,8 @@ p {
   font-size: 40px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande";
 }
+
+.heart:active {
+  transition: 0.1s;
+  font-size: 30px;
+}
