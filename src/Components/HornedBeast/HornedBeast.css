@@ -24,6 +24,7 @@ p {
   max-width: 300px;
   margin: 2rem;
   border: solid grey 5px;
+  height: 90%;
 }
 
 .horns {

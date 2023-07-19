@@ -7,6 +7,6 @@ h1 {
   letter-spacing: 0.1em;
   font-weight: 700;
   font-size: 50px;
-
+  width: 100%;
   background-color: black;
 }

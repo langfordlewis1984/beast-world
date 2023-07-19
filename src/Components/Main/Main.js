@@ -5,17 +5,18 @@ import HornedBeast from "../HornedBeast/HornedBeast";
 
 export default function Main({ beastData, handleModal }) {
   return (
-    <main>
+    <main className="main-div">
       {beastData.map((beast, key) => {
         return (
-          <HornedBeast
-            key={beast._id}
-            beastObject={beast}
-            title={beast.title}
-            image_url={beast.image_url}
-            description={beast.description}
-            handleModal={handleModal}
-          />
+          <div className="grid-item" key={beast._id}>
+            <HornedBeast
+              beastObject={beast}
+              title={beast.title}
+              image_url={beast.image_url}
+              description={beast.description}
+              handleModal={handleModal}
+            />
+          </div>
         );
       })}
     </main>

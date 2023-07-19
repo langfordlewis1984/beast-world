@@ -18,11 +18,12 @@
   flex-direction: column;
   align-items: center;
   box-shadow: 4px 8px 16px 0 beige;
+  border-radius: 15px;
+  border: solid 3px beige;
 }
 
 .modal img {
-  width: 50vw;
-  height: 50vh;
+  height: 70vh;
   object-fit: cover;
   object-position: center;
 }
