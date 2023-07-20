@@ -1,5 +1,19 @@
+header {
+  background-color: black;
+  color: var(--wht);
+  text-align: center;
+  padding-bottom: 1rem;
+  background-image: url(../../images/buderim.png);
+  background-repeat: no-repeat;
+  background-size: 1800px;
+  background-position: center center;
+  background-position-y: -400px;
+  /* background-position-x: -375px;
+  background-attachment: fixed; */
+}
+
 h1 {
-  color: beige;
+  color: var(--wht);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
   text-transform: uppercase;
@@ -8,5 +22,43 @@ h1 {
   font-weight: 700;
   font-size: 50px;
   width: 100%;
-  background-color: black;
+}
+
+.horns-label {
+  padding-right: 1rem;
+}
+
+.select-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (min-width: 830px) {
+  .header {
+    background-image: url(../../images/buderim.png);
+    background-repeat: no-repeat;
+    background-size: 1800px;
+    background-position: center center;
+    background-position-y: -400px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .header {
+    background-image: url(../../images/buderim.png);
+    background-repeat: no-repeat;
+    background-size: 1800px;
+    background-position: center center;
+    background-position-y: -400px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .header {
+    background-image: url(../../images/buderim.png);
+    background-repeat: no-repeat;
+    background-size: 1800px;
+    background-position: center center;
+    background-position-y: -400px;
+  }
 }

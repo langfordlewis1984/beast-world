@@ -12,14 +12,15 @@
 
 .modal-div {
   position: fixed;
+
   background-color: rgb(0, 0, 0);
   padding: 3rem 1rem 1rem 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: 4px 8px 16px 0 beige;
+  box-shadow: 4px 8px 16px 0 var(--grn);
   border-radius: 15px;
-  border: solid 3px beige;
+  border: solid 3px var(--grn);
 }
 
 .modal img {

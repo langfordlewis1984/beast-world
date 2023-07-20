@@ -1,7 +1,16 @@
 html {
   box-sizing: border-box;
-  width: 90%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0 auto;
+  background-color: var(--blk);
+}
+
+:root {
+  --wht: rgb(255, 244, 209);
+  --blk: rgb(1, 0, 5);
+  --ora: rgb(253, 145, 46);
+  --yel: rgb(252, 168, 6);
+  --grn: rgb(190, 197, 47);
 }
 
 .main-div {

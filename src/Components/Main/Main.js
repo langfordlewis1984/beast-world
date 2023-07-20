@@ -14,6 +14,7 @@ export default function Main({ beastData, handleModal }) {
               title={beast.title}
               image_url={beast.image_url}
               description={beast.description}
+              horns={beast.horns}
               handleModal={handleModal}
             />
           </div>
@@ -22,18 +23,3 @@ export default function Main({ beastData, handleModal }) {
     </main>
   );
 }
-//   const hornedBeasts = beastData.map((beast) => (
-//     <HornedBeast
-//       key={beast._id}
-//       _id={beast._id}
-//       title={beast.title}
-//       image_url={beast.image_url}
-//       description={beast.description}
-//       keyword={beast.keyword}
-//       horns={beast.horns}
-//       handleModal={handleModal}
-//     />
-//   ));
-
-//   return <div className="main-div">{hornedBeasts}</div>;
-//
